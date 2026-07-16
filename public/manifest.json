@@ -1,0 +1,14 @@
+{
+  "name": "AWS SAA-C03 Exam Prep",
+  "short_name": "SAA Prep",
+  "description": "Complete AWS Solutions Architect Associate certification preparation with 1000+ questions and 15 practice exams",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f1b2d",
+  "theme_color": "#ff9900",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "/aws-logo.svg", "sizes": "any", "type": "image/svg+xml" },
+    { "src": "/aws-logo.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}

@@ -2,12 +2,23 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/aws-logo.svg" />
+    <link rel="apple-touch-icon" href="/aws-logo.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>AWS SAA-C03 Exam Prep</title>
+    <meta name="theme-color" content="#ff9900" />
+    <meta name="description" content="AWS SAA-C03 Solutions Architect Associate - Complete exam prep with 1000+ questions, 15 practice exams, labs, and architecture scenarios" />
+    <link rel="manifest" href="/manifest.json" />
+    <title>AWS SAA-C03 Exam Prep | 1000+ Questions</title>
   </head>
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js')
+        })
+      }
+    </script>
   </body>
 </html>

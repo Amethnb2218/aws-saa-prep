@@ -13,6 +13,7 @@ import WellArchitected from './pages/WellArchitected'
 import Progress from './pages/Progress'
 import Labs from './pages/Labs'
 import CheatSheet from './pages/CheatSheet'
+import Architectures from './pages/Architectures'
 
 export default function App() {
   return (
@@ -25,6 +26,7 @@ export default function App() {
         <Route path="/well-architected" element={<WellArchitected />} />
         <Route path="/vocabulary" element={<Vocabulary />} />
         <Route path="/labs" element={<Labs />} />
+        <Route path="/architectures" element={<Architectures />} />
         <Route path="/cheatsheet" element={<CheatSheet />} />
         <Route path="/quiz" element={<Quiz />} />
         <Route path="/traps" element={<Traps />} />
